@@ -1,0 +1,51 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+}
+
+.table {
+    border-collapse: collapse;
+    border: #08a082;
+    margin: 5px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table th {
+    text-transform: uppercase;
+    padding: 5px 2px;
+}
+
+.table thead tr {
+    background-color: #08a082;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.table th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 0.5px dotted rgba(159, 154, 154, 0.911);
+}
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;   
+}
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #08a082;
+}
